@@ -1,0 +1,104 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" const="text/html;charset=UTF-8" />
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+
+    <link href="style/Styles.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <title>Simple Chat App</title>
+</head>
+<body>
+    <!--<form id="form">
+            <input id="message" name="message" />
+            <button type="submit">start </button>
+        </form>
+
+            var message = $("#message");
+    var Username = $("#Username");
+    var send_message = $("#send_message");
+    var send_username = $("#send_username");
+    var chatroom = $("#chatroom");
+            -->
+    <fieldset>
+        <legend >
+           Regester with name 
+        </legend>
+        <input id="Username" class="txtstyle" type="text" placeholder="Username">
+        <input id="password" class="txtstyle" type="text" placeholder="password">
+        <input id="fromUserID" type="text" hidden>
+        <input id="send_username" type="button" value="Login" class="btncolr">
+        <input id="signup_username" type="button" value="Sign up" class="btncolr">
+        <label id="error_messages" style="color:red"></label>
+    </fieldset>
+    <div class="background">
+        <div id="canchat" style="display:none">
+           <br />
+                <input id="chatwithuserIDHidden" type="text" hidden>
+
+
+            
+
+                <div id="chatwithuserlegend">
+
+                </div>
+            <br /> 
+
+            <div class="toright backgroundchat">
+
+                <div id="usersList" class="divwidth">
+
+                </div>
+
+            </div>
+
+            <div id="chatroom" class="toright chatboxscrollable">
+
+            </div>
+            <div class="clear">
+
+            </div>
+            <div id="chatboxinputs" class="toright" style="display:none">
+                <input id="message" class="txtstyle" type="text" placeholder="message">
+                <input id="send_message" type="button" class="btncolr" value="send">
+            </div>
+           
+
+
+          
+
+
+        </div>
+    </div>
+  
+
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   
+
+    <script type="application/javascript" src="client.js">
+      
+    </script>
+
+</body>
+</html>
+
+<script>
+    //var socket = io();
+    //var send_username = $("#send_username");
+    //var Username = $("#Username");
+    //send_username.click(function () {
+    //    console.log(Username.val())
+    //    socket.emit('change_username', { username: Username.val() })
+
+    //})
+    ////var socket = io();
+    ////$('#form').submit(function () {
+    ////    socket.emit('chat message', $('#name').val());
+    ////    $('#name').val('');
+    ////    return false;
+    ////});
+
+</script>

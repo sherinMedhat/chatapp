@@ -1,0 +1,17 @@
+{
+  "name": "chatingrooms",
+  "version": "0.0.0",
+  "description": "chatingrooms",
+  "main": "server.js",
+  "author": {
+    "name": "user",
+    "email": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.1.1",
+    "socket.io": "^2.1.0"
+  }
+}

@@ -1,0 +1,66 @@
+﻿body {
+    background-color: #e3e4e8
+}
+.backgroundchat{
+     background-color: #fcfdff
+}
+
+.btncolr
+{
+     color: white;
+    background-color: #68A0CE;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 128px;
+    height: 41px;
+}
+.txtstyle{
+        border-radius: 7px;
+    line-height: 28px;
+    width: 414px;
+    margin-left: 334px;
+}
+
+.toright{
+
+    float: left ;
+
+}
+
+.toleft{
+
+    float: right ;
+
+}
+.divwidth
+{
+    width: 198px;
+}
+
+.buttonsize
+{
+    width: 198px;
+    height: 60px;
+}
+
+#chatwithuserlegend{
+        margin-left: 371px;
+    background-color: white;
+    width: 420px;
+    line-height: 3;
+    text-align: center;
+
+
+}
+.chatboxscrollable{
+      width: 431px;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 170px;
+    background-color:white
+}
+.clear {
+    clear: both;
+}
